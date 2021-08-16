@@ -1,10 +1,13 @@
 import React from 'react';
 import './Mainpage.css';
+import icon from '../img/icon.png';
 
 const Mainpage = () => {
     return (
         <div>
-            <header></header>
+            <header>
+                <img src={icon} />
+            </header>
             <section className="mp1">
             </section>
             <section className="mp2">

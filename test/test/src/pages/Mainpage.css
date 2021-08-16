@@ -3,6 +3,12 @@ header {
     padding: 65px;
 }
 
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto 0px;
+}
+
 .mp1 {
     background: #EDFBF7;
     padding: 110px;
