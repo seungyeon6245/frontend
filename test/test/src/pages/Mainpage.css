@@ -1,0 +1,34 @@
+header {
+    background: white;
+    padding: 65px;
+}
+
+.mp1 {
+    background: #EDFBF7;
+    padding: 110px;
+}
+
+.mp2{
+    background: white;
+    padding: 110px;
+}
+
+.mp3{
+    background: #EFEDE6;
+    padding: 110px;
+}
+
+.mp4 {
+    background: #F6F6F6;
+    padding: 110px;
+}
+
+.mp5{
+    background: white;
+    padding: 110px;
+}
+
+.footer {
+    background: #EDFBF7;
+    padding: 90px;
+}
