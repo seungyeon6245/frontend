@@ -68,7 +68,7 @@ const Mainpage = () => {
             <footer className="footer">
                 <div className="footer_explain">
                     <img className="icon" src={icon}/>
-
+                    <button></button>
                 </div>
             </footer>
 
