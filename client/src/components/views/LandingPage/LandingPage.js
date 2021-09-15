@@ -50,8 +50,6 @@ function LandingPage() {
     }
 
 
-
-
     const loadMoreHanlder = () => {
 
         let skip = Skip + Limit
@@ -142,7 +140,7 @@ function LandingPage() {
         <div style={{ width: '75%', margin: '3rem auto' }}>
 
             <div style={{ textAlign: 'center' }}>
-                <h2>Let's Travel Anywhere <Icon type="rocket" /> </h2>
+                <h2>중고 상품이 쏟아지는 이 곳 <Icon type="rocket" /> </h2>
             </div>
 
             {/* Filter */}
