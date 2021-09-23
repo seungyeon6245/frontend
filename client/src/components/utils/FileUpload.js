@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Dropzone from 'react-dropzone'
+import React, { useState } from 'react';
+import Dropzone from 'react-dropzone';
 import Icon from '@ant-design/icons';
 import axios from 'axios';
 
@@ -7,10 +7,10 @@ function FileUpload(props) {
 
     const [Images, setImages] = useState([])
     const dropHandler = (files) => {
-
         let formData = new FormData();
         const config = {
-            header: { 'content-type': 'multipart/fomr-data' }
+            header: { 'content-type': 'multipart/fomr-data' },
+            credentials: 'include'
         }
         formData.append("file", files[0])
 
@@ -19,8 +19,6 @@ function FileUpload(props) {
                 if (response.data.success) {
                     setImages([...Images, response.data.filePath])
                     props.refreshFunction([...Images, response.data.filePath])
-
-
                 } else {
                     alert('파일을 저장하는데 실패했습니다.')
                 }
@@ -34,8 +32,6 @@ function FileUpload(props) {
         newImages.splice(currentIndex, 1)
         setImages(newImages)
         props.refreshFunction(newImages)
-
-
     }
 
     return (
