@@ -51,7 +51,6 @@ function LandingPage() {
 
 
     const loadMoreHanlder = () => {
-
         let skip = Skip + Limit
         let body = {
             skip: skip,

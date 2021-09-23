@@ -1,31 +1,31 @@
 const continents = [
     {
         "_id": 1,
-        "name": "Africa"
+        "name": "옷"
     },
     {
         "_id": 2,
-        "name": "Europe"
+        "name": "가구"
     },
     {
         "_id": 3,
-        "name": "Asia"
+        "name": "식물"
     },
     {
         "_id": 4,
-        "name": "North America"
+        "name": "디지털 기기"
     },
     {
         "_id": 5,
-        "name": "South America"
+        "name": "가전제품"
     },
     {
         "_id": 6,
-        "name": "Australia"
+        "name": "기타"
     },
     {
         "_id": 7,
-        "name": "Antarctica"
+        "name": "책"
     }
 
 ]
@@ -33,32 +33,32 @@ const continents = [
 const price = [
     {
         "_id": 0,
-        "name": "Any",
+        "name": "모든 가격",
         "array": []
     },
     {
         "_id": 1,
-        "name": "$0 to $199",
+        "name": "5000원 미만",
         "array": [0, 199]
     },
     {
         "_id": 2,
-        "name": "$200 to $249",
+        "name": "1만원대",
         "array": [200, 249]
     },
     {
         "_id": 3,
-        "name": "$250 to $279",
+        "name": "2만원대",
         "array": [250, 279]
     },
     {
         "_id": 4,
-        "name": "$280 to $299",
+        "name": "3만원대",
         "array": [280, 299]
     },
     {
         "_id": 5,
-        "name": "More than $300",
+        "name": "3만원 이상",
         "array": [300, 1500000]
     }
 ]
